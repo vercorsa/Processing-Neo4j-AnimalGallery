@@ -181,6 +181,34 @@ data/assets/texturas/
 
 
 Executar o sketch no Processing
+------------------------
+Enunciado
+Base:
+Pretende-se implementar uma aplicação em Processing que simule o interior de uma
+loja de animais virtual, com pelo menos uma sala. Nessa sala será apresentado um
+conjunto de animais, que podem ser, por exemplo, molduras ou porta-retratos
+expostos na parede ou num balcão, imagens de animais em figuras 3D expostas na
+loja, entre outras formas de apresentação.
+Deve, também, ser possível movimentar-se dentro da loja, para que se possa
+visualizar cada item na sua singularidade. Para ser possível contemplar os referidos
+itens é necessária uma boa iluminação da sala e dos itens. Essa sala tem pelo menos
+uma textura para o chão, outra para o tecto e outra para as paredes, para que a mesma
+se pareça realmente com uma loja de animais.
+Mas não é uma loja qualquer, primeiramente deve-se conseguir fazer uma seleção
+de qual/quais tipos de animais (cão, gato, etc.), raças (buldogue, labrador, etc.),
+idade,sexo, cor, tipo de pelagem, donos, instituições de acolhimento, etc. gostamos
+mais. É obrigatório incluir uma vaca.
+Esses dados devem estar armazenados numa Base de Dados em Neo4j como
+animais, pessoas, instituições e com propriedades como nome, data de nascimento,
+raça, tamanho, etc.
+Será tido em conta a quantidade e a complexidade de possibilidades a serem filtradas
+e a autenticidade do resultado obtido. Por exemplo, se eu gosto de animais rafeiros
+podem-me ser sugeridos animais sem raça que estão para adoção. Ou se eu gosto da
+raça buldogue podem-me ser sugeridos os cães dessa raça com a informação dos
+donos sobre a mesma, entre outros.
+Nota: A base de dados estará situada localmente no computador. Imagens e áudio
+de cada item podem ser guardados como links na base de dados e apontar para uma
+pasta local no computador.
 -------------------------
 👤 Autor
 
