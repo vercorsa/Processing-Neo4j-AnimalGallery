@@ -3,7 +3,7 @@ Processing (P3D) · Neo4j · Interação 3D
 Aplicação 3D desenvolvida em Processing (P3D) que simula o interior de uma loja de animais virtual, com navegação em primeira pessoa, quadros interativos e integração com uma base de dados Neo4j.
 Os animais são carregados dinamicamente da base de dados e exibidos em diferentes paredes do ambiente, incluindo uma parede central de destaque, com filtros avançados e painel informativo em tempo real.
 
-Este projeto foi inicialmente desenvolvido em contexto académico e posteriormente refinado e documentado para portfólio, com foco em organização de código, clareza arquitetural e boas práticas.
+Este projeto foi desenvolvido em contexto académico .
 --------------------------
 ✨ Destaques do Projeto
 
@@ -210,6 +210,5 @@ Nota: A base de dados estará situada localmente no computador. Imagens e áudio
 de cada item podem ser guardados como links na base de dados e apontar para uma
 pasta local no computador.
 -------------------------
-👤 Autor
 
 Desenvolvido por João Gabriel Verçosa Ferreira
